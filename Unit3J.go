@@ -13,9 +13,10 @@ import (
 func main() {
 
 	// Constants
-	const BOLTCOST = 10   // cents
-	const NUTCOST = 5     // cents
-	const WASHERCOST = 3  // cents
+	const BOLTCOST = 10  // cents
+	const NUTCOST = 5    // cents
+	const WASHERCOST = 3 // cents
+
 
 	var bolts int
 	var nuts int
