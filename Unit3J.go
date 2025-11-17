@@ -13,9 +13,9 @@ import (
 func main() {
 
 	// Constants
-	const BOLT_COST = 10   // cents
-	const NUT_COST = 5     // cents
-	const WASHER_COST = 3  // cents
+	const BOLTCOST = 10   // cents
+	const NUTCOST = 5     // cents
+	const WASHERCOST = 3  // cents
 
 	var bolts int
 	var nuts int
@@ -50,7 +50,7 @@ func main() {
 	}
 
 	// Total cost
-	totalCost := bolts*BOLT_COST + nuts*NUT_COST + washers*WASHER_COST
+	totalCost := bolts*BOLTCOST + nuts*NUTCOST + washers*WASHERCOST
 	fmt.Printf("Your total cost of the order is %d cents.\n", totalCost)
 
 	// Done message

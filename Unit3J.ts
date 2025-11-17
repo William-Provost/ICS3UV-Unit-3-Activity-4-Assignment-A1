@@ -12,9 +12,9 @@ const NUT_COST = 5;      // cents
 const WASHER_COST = 3;   // cents
 
 // Inputs
-let bolts: number = parseInt(prompt("How many bolts would you like to purchase?") || "0");
-let nuts: number = parseInt(prompt("How many nuts would you like to purchase?") || "0");
-let washers: number = parseInt(prompt("How many washers would you like to purchase?") || "0");
+const bolts: number = parseInt(prompt("How many bolts would you like to purchase?") || "0");
+const nuts: number = parseInt(prompt("How many nuts would you like to purchase?") || "0");
+const washers: number = parseInt(prompt("How many washers would you like to purchase?") || "0");
 
 // Output counts
 console.log("Number of bolts:          ", bolts);
@@ -33,7 +33,7 @@ if (nuts >= bolts && washers >= bolts) {
 }
 
 // Total cost
-let totalCost = bolts * BOLT_COST + nuts * NUT_COST + washers * WASHER_COST;
+const totalCost = bolts * BOLT_COST + nuts * NUT_COST + washers * WASHER_COST;
 console.log(`Your total cost of the order is ${totalCost} cents.`);
 
 // Done message
